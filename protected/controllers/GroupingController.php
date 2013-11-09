@@ -41,7 +41,7 @@ class GroupingController extends Controller {
                 // TODO    $this->render('_base_clustering', array());
             } else {
                 if (count($this->getVar('user')->clusterings) < 1) {
-                    $this->clusteringAlgorithm();
+                    //$this->clusteringAlgorithm();
                 }
                 //return; // Just for Test
                 $user = User::model()->findByPK($this->getVar('user')->id);

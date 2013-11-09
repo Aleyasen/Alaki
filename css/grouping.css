@@ -1,0 +1,17 @@
+.fg-widget {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.fg-widget [class*="span"] {
+    display: inline-block;
+    float: none;
+}
+.finalGroup{
+	height: 200px;
+	border: solid 1px black;
+}
+
+.cluster-container{
+	width: 1200px;
+	height: 400px;
+}

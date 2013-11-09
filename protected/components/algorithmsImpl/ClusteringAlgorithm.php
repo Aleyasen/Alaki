@@ -32,7 +32,7 @@ class ClusteringAlgorithm {
         $this->date = date("Ymd-His");
         $this->user = $user;
         $this->dir = $this->proj_path . 'algorithms/data/' . $this->user->id . '-' . $this->user->fbid . '/Algorithms';
-        $this->cygwin_cmd = 'G:\cygwin\bin\bash.exe --login -c ' ;
+        $this->cygwin_cmd = 'C:\cygwin64\bin\bash.exe --login -c ' ;
         if (!is_dir($this->dir)) {
             mkdir($this->dir, 0777, true);
         }

@@ -3,25 +3,25 @@
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="cluster-container"></div>
       <div class="carousel-caption">
         <p>Caption text here</p>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="cluster-container"></div>
       <div class="carousel-caption">
         <p>Caption text here</p>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="cluster-container"></div>
       <div class="carousel-caption">
         <p>Caption text here</p>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="cluster-container"></div>
       <div class="carousel-caption">
         <p>Caption text here</p>
       </div>
@@ -37,3 +37,22 @@
         $('.carousel').carousel('pause');
     });
 </script>
+<div id="row">
+        <ul class="thumbnails fg-widget">
+          <li class="span4 finalGroup">
+            <h3>Hello world</h3>
+          </li>
+          <li class="span4 finalGroup">
+            <h3>Hello world</h3>
+          </li>
+          <li class="span4 finalGroup">
+            <h3>Hello world</h3>
+          </li>
+          <li class="span4 finalGroup">
+            <h3>Hello world</h3>
+          </li>
+          <li class="span4 finalGroup">
+            <h3>Hello world</h3>
+          </li>
+        </ul>
+</div>

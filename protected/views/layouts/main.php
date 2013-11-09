@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
         <![endif]-->
 
-        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+        <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />-->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
 
@@ -26,7 +26,7 @@
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/bs-editable/js/bootstrap-editable.min.js');
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/jquery.slimscroll.min.js');
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/font-awesome/css/font-awesome.min.css');
-        
+        Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/css/grouping.css');
         ?>
 
 
@@ -36,7 +36,7 @@
     <body>
 
 
-        <div class="container" id="page">
+        <div class="container-fluid" id="page">
 
 
             <div>
@@ -74,6 +74,7 @@
             </div>
 
             <div id="mainmenu" class="navbar">
+                <div class="navbar-inner">
                 <?php
                 $this->widget('zii.widgets.CMenu', array(
                     'items' => array(
@@ -81,23 +82,21 @@
                         array('label' => 'Terms & Conditions', 'url' => array('/frontend/terms')),
                         array('label' => 'Guidelines', 'url' => array('/frontend/guides')),
                         // array('label' => 'About', 'url' => array('/frontend/intro')),
-                        array('label' => 'Contact', 'url' => array('/site/contact'), 'template' => '| {menu}'),
+                        array('label' => 'Contact', 'url' => array('/site/contact')),
                     //    array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
                     //    array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
                     ),
+                    'htmlOptions' => array(
+                        'class' => 'nav',
+                        ),
+                    'activeCssClass' => 'active',
                 ));
                 ?>
+                </div>
             </div><!-- mainmenu -->
-            <?php if (isset($this->breadcrumbs)): ?>
-                <?php
-                $this->widget('zii.widgets.CBreadcrumbs', array(
-                    'links' => $this->breadcrumbs,
-                ));
-                ?><!-- breadcrumbs -->
-            <?php endif ?>
-
+            <div class="container-fluid">
             <?php echo $content; ?>
-
+            </div>
             <div class="clear"></div>
 
             <div id="footer">
