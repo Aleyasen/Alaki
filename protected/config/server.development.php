@@ -8,8 +8,8 @@ return array(
     // application components
     'components' => array(
         'facebook' => array(
-            'appId' => '473003326096962', // needed for JS SDK, Social Plugins and PHP SDK
-            'secret' => '1d0ee4026fcef85c1eb2ebfda5792aac', // needed for the PHP SDK 
+            'appId' => '262751097206670', // needed for JS SDK, Social Plugins and PHP SDK
+            'secret' => '3c43aaac31828cb10173de945c49d2cd', // needed for the PHP SDK 
         ),
         
         'db' => array(
