@@ -26,6 +26,7 @@
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/bs-editable/js/bootstrap-editable.min.js');
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/jquery.slimscroll.min.js');
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/font-awesome/css/font-awesome.min.css');
+        
         ?>
 
 
