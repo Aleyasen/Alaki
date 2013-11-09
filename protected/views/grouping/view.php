@@ -10,7 +10,7 @@
         <div class="carousel-inner">
             <div class="active item"><div class="carousel-caption">Hello World</div>
                 <div class="carousel-caption">Hello World</div>
-                
+
             </div>
             <div class="item"><div class="carousel-caption">Hello World1</div></div>
             <div class="item"><div class="carousel-caption">Hello World2</div></div>
@@ -19,5 +19,9 @@
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
+
+    <?php
+    echo $user->clusterings;
+    ?>
 
 </div>
