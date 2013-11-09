@@ -35,6 +35,7 @@ class GroupingController extends Controller {
     }
 
     public function actionView() {
+        $this->layout = "grouping";
         //   if (Yii::app()->facebook->isUserLogin()) {
         if ($this->isValidUser()) {
             if (Yii::app()->request->isAjaxRequest) {
