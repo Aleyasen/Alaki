@@ -1,0 +1,3358 @@
+setting -f
+setting -uw
+**************************************
+Threshold:			0.1
+Network file:			example.dat
+Weighted: no
+First Level Runs:			10
+Higher Level Runs:			50
+-cp:			0.5
+**************************************
+
+allocating 6236 factorials...
+done
+output files will be written in directory: example.dat_oslo_files
+network:: 301 nodes and 6236 stubs;	 average degree = 20.7176
+STARTING! HIERARCHICAL LEVEL: 0
+***************************************************************** RUN: #1
+iteration: 0 number of modules: 66
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 6 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 10
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #2
+iteration: 0 number of modules: 69
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 9 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 18
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #3
+iteration: 0 number of modules: 60
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #4
+iteration: 0 number of modules: 62
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 11
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #5
+iteration: 0 number of modules: 56
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 9 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 12
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #6
+iteration: 0 number of modules: 58
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 11
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #7
+iteration: 0 number of modules: 68
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 9 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 11
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #8
+iteration: 0 number of modules: 66
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 10 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 8
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #9
+iteration: 0 number of modules: 61
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #10
+iteration: 0 number of modules: 57
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+check unions of modules using community network
+
+iteration: 0 number of modules: 6
+collection done 
+
+
+possible fusions to check: 2
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+pruning all the modules collected. Partitions found: 10
+getting partition from tp-file: example.dat_oslo_files/partitions_level_0
+87 groups found
+87 bss found
+checking similar modules
+
+checking highly intersecting modules
+
+pairs to check: 2
+checking homeless nodes
+writing final solution in file example.dat_oslo_files/tp
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+network:: 10 nodes and 828 stubs;	 average degree = 82.8
+STARTING! HIERARCHICAL LEVEL: 1
+***************************************************************** RUN: #1
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #2
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #3
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #4
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #5
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #6
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #7
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #8
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #9
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #10
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #11
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #12
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #13
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #14
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #15
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #16
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #17
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #18
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #19
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #20
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #21
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #22
+iteration: 0 number of modules: 5
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #23
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #24
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #25
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #26
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #27
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #28
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #29
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #30
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #31
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #32
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #33
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #34
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 2
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #35
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #36
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #37
+iteration: 0 number of modules: 5
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #38
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #39
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 2
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #40
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #41
+iteration: 0 number of modules: 5
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #42
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #43
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #44
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #45
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #46
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 1
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #47
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #48
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #49
+iteration: 0 number of modules: 4
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 3
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #50
+iteration: 0 number of modules: 3
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 3. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 2
+collection done 
+
+
+possible fusions to check: 1
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 0
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+pruning all the modules collected. Partitions found: 50
+getting partition from tp-file: example.dat_oslo_files/partitions_level_1
+150 groups found
+150 bss found
+checking similar modules
+
+checking highly intersecting modules
+
+pairs to check: 0
+checking homeless nodes
+writing final solution in file example.dat_oslo_files/short_tp1
+******** module_collection ******** 3 modules. writing... 
+DONE   ****************************
+network:: 4 nodes and 26 stubs;	 average degree = 6.5
+STARTING! HIERARCHICAL LEVEL: 2
+***************************************************************** RUN: #1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #3
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 2. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #4
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #5
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #6
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #7
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #8
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #9
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #10
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #11
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #12
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #13
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #14
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #15
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #16
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #17
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #18
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #19
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #20
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #21
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #22
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #23
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #24
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #25
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 2. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #26
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #27
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #28
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #29
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #30
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #31
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #32
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #33
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #34
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #35
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #36
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 2. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #37
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #38
+iteration: 0 number of modules: 1
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #39
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #40
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #41
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #42
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 2. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #43
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #44
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #45
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 2. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 2
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #46
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #47
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #48
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #49
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+***************************************************************** RUN: #50
+iteration: 0 number of modules: 2
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 1. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules, modules to check: 1
+iteration: 0 number of modules: 1
+collection done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+***************************************************************************
+MINIMALITY CHECK DONE
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+pruning all the modules collected. Partitions found: 0
+getting partition from tp-file: example.dat_oslo_files/partitions_level_2
+0 groups found
+0 bss found
+checking homeless nodes
+writing final solution in file example.dat_oslo_files/short_tp2
+******** module_collection ******** 0 modules. writing... 
+DONE   ****************************
+hierarchies done ********* 

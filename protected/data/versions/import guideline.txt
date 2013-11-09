@@ -1,0 +1,8 @@
+
+- Delete DB
+- Create a new empty one
+
+with cmd
+- Go to the version folder
+- run 
+	mysql -h localhost -u root cda < cda-09-27-2013.sql

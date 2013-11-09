@@ -1,0 +1,298 @@
+setting -f
+setting -uw
+**************************************
+Threshold:			0.1
+Network file:			example.dat
+Weighted: no
+First Level Runs:			10
+Higher Level Runs:			50
+-cp:			0.5
+**************************************
+
+allocating 6236 factorials...
+done
+output files will be written in directory: example.dat_oslo_files
+network:: 301 nodes and 6236 stubs;	 average degree = 20.7176
+STARTING! HIERARCHICAL LEVEL: 0
+***************************************************************** RUN: #1
+iteration: 0 number of modules: 58
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 11
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+check unions of modules using community network
+
+iteration: 0 number of modules: 11
+collection done 
+
+
+possible fusions to check: 2
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #2
+iteration: 0 number of modules: 62
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 12
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #3
+iteration: 0 number of modules: 70
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 8
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+check unions of modules using community network
+
+iteration: 0 number of modules: 6
+collection done 
+
+
+possible fusions to check: 2
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #4
+iteration: 0 number of modules: 57
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 10
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 1
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #5
+iteration: 0 number of modules: 72
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 12
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #6
+iteration: 0 number of modules: 75
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 6 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 3
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 8 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #7
+iteration: 0 number of modules: 68
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0
+significance check done 
+
+
+checking unions of not significant modules done 
+
+
+***************************************************************************
+COLLECTING SIGNIFICANT MODULES DONE
+
+minimality check: 6 modules to check, run: 0
+minimality check: 8 modules to check, run: 1
+***************************************************************************
+MINIMALITY CHECK DONE
+checking similar modules
+
+check unions of modules using community network
+
+iteration: 0 number of modules: 9
+collection done 
+
+
+possible fusions to check: 4
+checked 0 unions. Fused: 0
+checking highly intersecting modules
+
+pairs to check: 2
+***************************************************************************
+CHECK UNIONS AND SIMILAR MODULES DONE
+******** module_collection ******** 9 modules. writing... 
+DONE   ****************************
+***************************************************************** RUN: #8
+iteration: 0 number of modules: 60
+collection done 
+
+
+checked 0 modules 0 were found significant.  Modules to check: 9. Percentage nodes done: 0

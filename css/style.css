@@ -1,0 +1,41 @@
+body { font-family:'lucida grande',arial,tahoma,verdana,arial,sans-serif; font-size: 11px; }
+#main_portion{width:920px; text-align: left; padding:0; float: left; }
+#public { float:right; max-height:500px; overflow-y:auto; display: inline; }
+.members{ color: #3B5998; text-decoration: none; background-color: white;
+          cursor: pointer;width:170px;
+          position: relative; float: left; border:1px dotted #ccc; 
+          border-radius:5px; text-align: left; padding:2px; margin-top: 2px;
+          margin-left: 2px;z-index:999; font-weight:bold; font-size:10.5px;}
+.members img{ padding:2px; margin-right:8px; border:1px solid #ccc; float:left;}
+#groupsall{ float:left; clear:left; display: inline; max-height:500px; overflow: auto; width:180px; }
+.group{ float:left; position:relative; width:117px; border:1px solid #817f83; margin:15px; margin-top:4px; text-align: left; min-height:137px; height:auto; background-color: white; }
+.supgroup{float:left; position:relative; width:150px; border:1px solid #aca9af; margin:3px; text-align: left; height:auto; background-color: #dcbdf9;}
+.cont{width:115px;min-height:115px; height:auto; background: none;}
+.supcont{width:128px;}
+.group ul{ padding:0; margin:0;}
+.group li { float:left; list-style: none; padding:2px;}
+.supgroup ul{ padding:0; margin:0;}
+.supgroup li { float:left; list-style: none; padding:2px;}
+
+.add{ position: absolute; z-index:99;}
+.remove{ position: absolute; z-index:99;}
+h2{ font-size: 22px; text-align: left;}
+h1{  font-size: 28px;}
+.groupheader{ background-color:#D6D4D5; padding-left:4px;  }
+.supgroupheader{ background-color:#6cddf2; padding-left:4px; }
+.fb_thumb {float:left; padding:2px;}
+.fb_thumb_count {display:inline-block; background-color:#DFC4E2;  height:34px; width: 34px; text-align:center;   font-size:12pt; line-height:34px; }
+.close2{
+    font-size: 40px;
+}
+.color1 {background-color: #66ff33 }
+.color2 {background-color: #ff00ff}
+.color3 {background-color: #ff9999 }
+.color4 {background-color: #6699ff }
+.color5 {background-color: #00cc66 }
+.color6 {background-color: #ff9999}
+.editable-click, a.editable-click, a.editable-click:hover {
+    border-bottom: 1px dashed #0088CC;
+    color: black;
+    text-decoration: none;
+}
