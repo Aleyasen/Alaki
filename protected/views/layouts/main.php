@@ -39,31 +39,32 @@
 
 
             <div>
-                <div><?php //echo CHtml::encode(Yii::app()->name);        ?>
+                <div><?php //echo CHtml::encode(Yii::app()->name);         ?>
                     <img src='<?php echo Yii::app()->request->baseUrl; ?>/images/banner.png'></img>
                 </div>
             </div><!-- header -->
 
             <div class="row buttons" style="float: right; margin:2px;">
                 <?php
-                $scope = 'email,user_about_me,
-                            user_actions.books,user_actions.music,user_actions.news,
-                            user_actions.video,user_activities,user_birthday,	
-                            user_education_history,user_events,user_games_activity,	
-                            user_groups,user_hometown,user_interests,
-                            user_likes,user_location,user_notes,
-                            user_photos,user_questions,user_relationship_details,
-                            user_relationships,user_religion_politics,user_status,
-                            user_subscriptions,user_videos,user_website,
-                            user_work_history,
-                            friends_about_me,friends_actions.books,friends_actions.music,
-                            friends_actions.news,friends_actions.video,friends_activities,friends_birthday,
-                            friends_education_history,friends_events,friends_games_activity,friends_groups,
-                            friends_hometown,friends_interests,friends_likes,friends_location,friends_notes,
-                            friends_photos,friends_questions,friends_relationship_details,friends_relationships,
-                            friends_religion_politics,friends_status,friends_subscriptions,friends_videos,
-                            friends_website,friends_work_history,
-                            read_stream';
+                $scope = '';
+//                $scope = 'email,user_about_me,
+//                            user_actions.books,user_actions.music,user_actions.news,
+//                            user_actions.video,user_activities,user_birthday,	
+//                            user_education_history,user_events,user_games_activity,	
+//                            user_groups,user_hometown,user_interests,
+//                            user_likes,user_location,user_notes,
+//                            user_photos,user_questions,user_relationship_details,
+//                            user_relationships,user_religion_politics,user_status,
+//                            user_subscriptions,user_videos,user_website,
+//                            user_work_history,
+//                            friends_about_me,friends_actions.books,friends_actions.music,
+//                            friends_actions.news,friends_actions.video,friends_activities,friends_birthday,
+//                            friends_education_history,friends_events,friends_games_activity,friends_groups,
+//                            friends_hometown,friends_interests,friends_likes,friends_location,friends_notes,
+//                            friends_photos,friends_questions,friends_relationship_details,friends_relationships,
+//                            friends_religion_politics,friends_status,friends_subscriptions,friends_videos,
+//                            friends_website,friends_work_history,
+//                            read_stream';
                 if (Yii::app()->facebook->isUserLogin())
                     echo CHtml::button('Logout', array('class' => 'btn', 'submit' => Yii::app()->facebook->getLogoutUrl(array('next' => Yii::app()->getBaseUrl(true) . '/index.php/frontend/intro'))));
                 else

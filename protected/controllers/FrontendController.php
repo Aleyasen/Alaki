@@ -46,7 +46,7 @@ class FrontendController extends Controller {
             $this->setVar('user', $user);
             // These two commands save network + friends info=> If the size of the FB network is very big, comment them!
             $this->saveLinks();
-            $result = $user->fetchFriendsInfo();
+       //     $result = $user->fetchFriendsInfo();
 
             // echo 'UserId: ' . $user->id;
         } else {
