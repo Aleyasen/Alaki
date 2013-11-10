@@ -13,21 +13,27 @@ class GroupingController extends Controller {
         $this->setVar('edges', NULL);
     }
 
-    public function actionMoveCluster($clusId, $sourceId, $destId) {
-
-        $clusObj = Cluster::model()->findbyPK($clusId);
-        $clusObj->sup_cluster = $destId;
-        $clusObj->save();
+    public function actionMoveCluster($clusId, $destId) {
+        if (Yii::app()->request->isAjaxRequest) {
+            $clusObj = Cluster::model()->findbyPK($clusId);
+            $clusObj->sup_cluster = $destId;
+            $clusObj->save();
+            $destObj = Cluster::model()->findbyPK($destId);
+            echo $this->renderPartial('_cluster_bottom', array('cluster' => $destObj), true);
+        }
     }
 
     public function actionMoveFriend($friendId, $sourceId, $destId) {
-        $friObj = Friend::model()->findByPK($friendId);
-        $sourceObj = Cluster::model()->findbyPK($sourceId);
-        $destObj = Cluster::model()->findbyPK($destId);
-        $friendclus = FriendCluster::model()->find("friend=:friend and cor_cluster=:cor_cluster", array(":friend" => $friObj->id, ":cor_cluster" => $sourceObj->id));
-        $fri->removeRelationRecords('corClusters', array($sourceObj->id));
-        $fri->addRelationRecords('corClusters', array($destObj->id), array('cluster' => $friendclus->cluster));
-        return "OK";
+        if (Yii::app()->request->isAjaxRequest) {
+            //echo "$friendId $sourceId $destId";
+            $friObj = Friend::model()->findByPK($friendId);
+            $sourceObj = Cluster::model()->findbyPK($sourceId);
+            $destObj = Cluster::model()->findbyPK($destId);
+            $friendclus = FriendCluster::model()->find("friend=:friend and cor_cluster=:cor_cluster", array(":friend" => $friObj->id, ":cor_cluster" => $sourceObj->id));
+            $friObj->removeRelationRecords('corClusters', array($sourceObj->id));
+            $friObj->addRelationRecords('corClusters', array($destObj->id), array('cluster' => $friendclus->cluster));
+            echo $this->renderPartial('_cluster_bottom', array('cluster' => $destObj), true);
+        }
     }
 
     public function actionIntro() {

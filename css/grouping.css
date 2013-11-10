@@ -1,23 +1,12 @@
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;font-family:arial}ul,ol{list-style:none;}img{border:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}.nofloat{float:none;}.maincenter{width:984px;margin:0 auto;}.clear{clear:both;}.iclear{clear:both;display:block;overflow:hidden;padding:0;margin:0;width:0;height:0;}
 /*
-.fg-widget {
-    overflow-x: scroll;
-    white-space: nowrap;
-}
-.fg-widget [class*="span"] {
-    display: inline-block;
-    float: none;
-}
-.finalGroup{
-    height: 200px;
-    border: solid 1px black;
-}
+
 .drop-hover{
-	background:yellow;
+        background:yellow;
 }
 
 .cluster-container{
-	z-index:999999;
+        z-index:999999;
     width: 1200px;
     height: 400px;
 }
@@ -63,59 +52,91 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 }*/
 
 .main{
-width:100%;
-overflow:hidden;
-position: relative;
+    width:100%;
+    overflow:hidden;
+    position: relative;
 }
 .cluster-zone ul{
-width:300px;
-float:left;
-margin-right:20px;
+    width:300px;
+    float:left;
+    margin-right:20px;
 }
 .cluster, #og{
-border:1px solid #ddd;
+    border:1px solid #ddd;
 }
 .cluster .friend_div,
 #og .friend_div{
-width:54px;
-background:#eee;
-font-size:12px;
-margin:5px 0 0 5px;
-float:left;
+    width:54px;
+    background:#eee;
+    font-size:12px;
+    margin:5px 0 0 5px;
+    float:left;
 }
+
+.groups .friend_div{
+    width: 54px;
+    background: #eee;
+    font-size: 12px;
+    margin: 5px 0 0 5px;
+    float: left;
+}
+
+.groups{
+    overflow: hidden;
+    height: 200px;
+}
+
+.groups .name {
+    display: none;
+}
+
+.fg-widget {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.fg-widget [class*="span"] {
+    display: inline-block;
+    float: none;
+}
+.finalGroup{
+    height: 200px;
+    border: solid 1px black;
+}
+
 #og .friend_div img,
 .cluster .friend_div img{
-margin:2px;
+    margin:2px;
 }
 #og .friend_div .name,
 .cluster .friend_div .name{
-height:18px;
-line-height:18px;
-overflow:hidden;
-margin-left:3px;
+    height:18px;
+    line-height:18px;
+    overflow:hidden;
+    margin-left:3px;
 }
 .group-zone {
-height:220px;
-overflow-x:scroll;
-overflow-y:hidden;
-background:#f7f7f7;
+    height:320px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    background:#f7f7f7;
 }
 .group-zone  ul{
-width:auto;
-overflow:visible;
+    width:auto;
+    overflow:visible;
 }
 .group{
-background:#fff;
-width:200px;
-height:120px;
-float:left;
-margin:20px 0 0 20px;
+    background:#fff;
+    width:200px;
+    height:220px;
+    float:left;
+    margin:20px 0 0 20px;
+    overflow: hidden;
 }
 .ui-draggable-dragging{
-z-index:999999999;
-position:absolute
+    z-index:999999999;
+    position:absolute
 }
 .drop-hover{
-background:yellow;
-z-index:0;
+    background:yellow;
+    z-index:0;
 }

@@ -46,15 +46,15 @@
 <div class="main">
     <div class="cluster-zone">
         <?php
-        $count = 3;
+        //$count = 3;
         foreach ($user->clusterings[0]->clusters as $clus) {
             ?>
             <ul>
                 <?php
-                if ($count == 0) {
-                    break;
-                }
-                $count--;
+//                if ($count == 0) {
+//                    break;
+//                }
+//                $count--;
                 $this->renderPartial('_cluster_main', array(
                     'cluster' => $clus));
                 ?>
@@ -64,20 +64,25 @@
         <div class="iclear" ></div>
     </div>
     <div class="iclear"></div>
-    <div class="group-zone">
-        <ul>
-            <?php foreach ($user->clusterings[0]->clusters as $clus) { ?>
-                <li class="group">
-                    <?php
-                    $this->renderPartial('_cluster_bottom', array(
-                        'cluster' => $clus));
+    <div class="group-zone row">
+        <ul class="thumbnails fg-widget">
+            <?php
+            foreach ($user->clusterings[0]->clusters as $clus) {
+                if ($clus->level == 1) {
                     ?>
-					<div id="og" data-cid="og">
-						<div class="list"></div>
-						<div class="iclear" style="height:5px"></div>
-					</div>
-                </li>
-            <?php } ?>
+                    <li class="span4 group finalGroup" data-cid=<?php echo $clus->id; ?>>
+                        <?php
+                        $this->renderPartial('_cluster_bottom', array(
+                            'cluster' => $clus));
+                        ?>
+                        <div id="og" data-cid="og">
+                            <div class="list"></div>
+                            <div class="iclear" style="height:5px"></div>
+                        </div>
+                    </li>
+                <?php }
+            }
+            ?>
         </ul>
     </div>
 </div>
@@ -91,13 +96,37 @@
         hoverClass: "drop-hover",
         accept: ".cluster,.friend_div",
         drop: function(event, ui) {
-			if(ui.draggable.attr('data-type') == "user"){
-				//$(this).find("#og").append(ui.draggable.html());
-				ui.draggable.detach().appendTo($(this).find("#og .list"));
-			}
-			else{
-				ui.draggable.detach().appendTo($(this));
-			}
+            if (ui.draggable.attr('data-type') == "user") {
+                //$(this).find("#og").append(ui.draggable.html());
+                ui.draggable.detach().appendTo($(this).find("#og .list"));
+                $cid = $(this).attr('data-cid');
+                $this = $(this);
+                $.ajax({
+                    url: "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>",
+                    data: {friendId: ui.draggable.attr('data-id'), sourceId: ui.draggable.attr('data-cid'), destId: $cid},
+                    success: function(msg) {
+                        $this.html(msg);
+                    },
+                    error: function(xhr) {
+                        alert("failure" + xhr.readyState + this.url)
+                    }
+                });
+            }
+            else {
+                ui.draggable.detach().appendTo($(this));
+                $cid = $(this).attr('data-cid');
+                $this = $(this);
+                $.ajax({
+                    url: "<?php echo Yii::app()->createUrl('grouping/moveCluster'); ?>",
+                    data: {clusId: ui.draggable.attr('data-cid'), destId: $cid},
+                    success: function(msg) {
+                        $this.html(msg);
+                    },
+                    error: function(xhr) {
+                        alert("failure" + xhr.readyState + this.url)
+                    }
+                });
+            }
         }
     });
 
