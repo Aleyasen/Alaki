@@ -10,11 +10,6 @@
             <img src='https://graph.facebook.com/<?php echo $fri->fbid; ?>/picture'>
             <div class="name"><?php echo $fri->name; ?></div>
         </div>
-<<<<<<< HEAD:protected/views/grouping/_cluster_main.php
     <?php } ?>
-</div>
-=======
-	<?php } ?>
-	<div class="iclear" style="height:5px"></div>
+    <div class="iclear" style="height:5px"></div>
 </li>
->>>>>>> origin/haoran:protected/views/grouping/_friends.php
