@@ -62,12 +62,11 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
     margin-right:20px;
 }
 .cluster{
-    border:1px solid #ddd;
+    border-radius: 10px;
 }
 .cluster .friend_div,
 #og .friend_div{
     width:54px;
-    background:#eee;
     font-size:12px;
     margin:5px 0 0 5px;
     float:left;
@@ -102,6 +101,8 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 .finalGroup{
     height: 200px;
     border-radius: 10px;
+    border: #000 1px solid;
+    border-radius: 20px;
 }
 
 #og .friend_div img,
@@ -148,4 +149,9 @@ img{
 .group div:first-child{
     font-size: 14px;
     font-weight: bolder;
+}
+
+.ul-cluster{
+    background-color: #F3F3F3;
+    border-radius: 10px;
 }
