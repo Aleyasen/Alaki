@@ -1,4 +1,4 @@
-<div class='groups' style="background-color: yellow;">
+<li class='cluster'>
     <?php
     $max_count = 7;
     foreach ($cluster->corFriends as $fri) {
@@ -8,7 +8,13 @@
         ?>
         <div class='friend_div'  fbid=<?php echo $fri->fbid; ?>>
             <img src='https://graph.facebook.com/<?php echo $fri->fbid; ?>/picture'>
-            <div><?php echo $fri->name; ?></div>
+            <div class="name"><?php echo $fri->name; ?></div>
         </div>
+<<<<<<< HEAD:protected/views/grouping/_cluster_main.php
     <?php } ?>
 </div>
+=======
+	<?php } ?>
+	<div class="iclear" style="height:5px"></div>
+</li>
+>>>>>>> origin/haoran:protected/views/grouping/_friends.php
