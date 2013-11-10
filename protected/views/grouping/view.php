@@ -44,22 +44,21 @@
 
 
 <div class="main">
-    <div class="cluster-zone">
+    <div class="cluster-zone" id="cluster-zone">
         <?php
         //$count = 3;
         foreach ($user->clusterings[0]->clusters as $clus) {
             ?>
-            <ul>
-                <?php
+
+            <?php
 //                if ($count == 0) {
 //                    break;
 //                }
 //                $count--;
-                $this->renderPartial('_cluster_main', array(
-                    'cluster' => $clus));
-                ?>
-                <div class="iclear" style="height:10px"></div>
-            </ul>
+            $this->renderPartial('_cluster_main', array(
+                'cluster' => $clus));
+            ?>
+
         <?php } ?>
         <div class="iclear" ></div>
     </div>
@@ -80,7 +79,8 @@
                             <div class="iclear" style="height:5px"></div>
                         </div>
                     </li>
-                <?php }
+                    <?php
+                }
             }
             ?>
         </ul>
@@ -89,58 +89,83 @@
 
 
 <script type="text/javascript">
-    $(".cluster").draggable({
-        revert: true
-    });
-    $(".group").droppable({
-        hoverClass: "drop-hover",
-        accept: ".cluster,.friend_div",
-        drop: function(event, ui) {
-            if (ui.draggable.attr('data-type') == "user") {
-                //$(this).find("#og").append(ui.draggable.html());
-                ui.draggable.detach().appendTo($(this).find("#og .list"));
-                $cid = $(this).attr('data-cid');
-                $this = $(this);
-                $.ajax({
-                    url: "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>",
-                    data: {friendId: ui.draggable.attr('data-id'), sourceId: ui.draggable.attr('data-cid'), destId: $cid},
-                    success: function(msg) {
-                        $this.html(msg);
-                    },
-                    error: function(xhr) {
-                        alert("failure" + xhr.readyState + this.url)
-                    }
-                });
+    function addDragDrop() {
+        $(".cluster").draggable({
+            revert: true
+        });
+        $(".group").droppable({
+            hoverClass: "drop-hover",
+            accept: ".cluster,.friend_div",
+            drop: function(event, ui) {
+                if (ui.draggable.attr('data-type') == "user") {
+                    //$(this).find("#og").append(ui.draggable.html());
+                    ui.draggable.detach().appendTo($(this).find("#og .list"));
+                    $cid = $(this).attr('data-cid');
+                    $this = $(this);
+                    $.ajax({
+                        url: "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>",
+                        data: {friendId: ui.draggable.attr('data-id'), sourceId: ui.draggable.attr('data-cid'), destId: $cid},
+                        success: function(msg) {
+                            $this.html(msg);
+                        },
+                        error: function(xhr) {
+                            alert("failure" + xhr.readyState + this.url)
+                        }
+                    });
+                }
+                else {
+                    ui.draggable.detach().appendTo($(this));
+                    $cid = $(this).attr('data-cid');
+                    $this = $(this);
+                    $.ajax({
+                        url: "<?php echo Yii::app()->createUrl('grouping/moveCluster'); ?>",
+                        data: {clusId: ui.draggable.attr('data-cid'), destId: $cid},
+                        success: function(msg) {
+                            $this.html(msg);
+                        },
+                        error: function(xhr) {
+                            alert("failure" + xhr.readyState + this.url)
+                        }
+                    });
+                }
             }
-            else {
-                ui.draggable.detach().appendTo($(this));
-                $cid = $(this).attr('data-cid');
-                $this = $(this);
-                $.ajax({
-                    url: "<?php echo Yii::app()->createUrl('grouping/moveCluster'); ?>",
-                    data: {clusId: ui.draggable.attr('data-cid'), destId: $cid},
-                    success: function(msg) {
-                        $this.html(msg);
-                    },
-                    error: function(xhr) {
-                        alert("failure" + xhr.readyState + this.url)
-                    }
-                });
-            }
-        }
-    });
+        });
 
 
-    $(".friend_div").draggable({
-        revert: true
+        $(".friend_div").draggable({
+            revert: true
+        });
+        $(".cluster").droppable({
+            hoverClass: "drop-hover",
+            accept: ".friend_div",
+            drop: function(event, ui) {
+                ui.draggable.detach().appendTo($(this).find(".list"));
+            }
+        });
+
+        $(".groups").click(function(event) {
+            $cid = $(event.target).attr('data-cid');
+            if ($cid == null) {
+                $cid = $(event.target).parent().attr('data-cid');
+            }
+            $.ajax({
+                url: "<?php echo Yii::app()->createUrl('grouping/showCluster'); ?>",
+                data: {clusId: $cid},
+                success: function(msg) {
+                    $('#cluster-zone').html(msg);
+                },
+                error: function(xhr) {
+                    alert("failure" + xhr.readyState + this.url)
+                }
+            });
+        });
+    }
+    $(document).ready(function(){
+        addDragDrop();
+        console.log("Document loaded");
     });
-    $(".cluster").droppable({
-        hoverClass: "drop-hover",
-        accept: ".friend_div",
-        drop: function(event, ui) {
-            ui.draggable.detach().appendTo($(this).find(".list"));
-        }
+    $(document).ajaxComplete(function(){
+        addDragDrop();
     });
-</script>
 
 </script>

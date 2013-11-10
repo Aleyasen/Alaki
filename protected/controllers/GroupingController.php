@@ -36,6 +36,13 @@ class GroupingController extends Controller {
         }
     }
 
+    public function actionShowCluster($clusId) {
+        if (Yii::app()->request->isAjaxRequest) {
+            $clusObj = Cluster::model()->findbyPK($clusId);
+            echo $this->renderPartial('_cluster_modal', array('cluster' => $clusObj), true);
+        }
+    }
+
     public function actionIntro() {
         $user = new User;
         $user->createdAt = new CDbExpression('NOW()');
@@ -164,6 +171,7 @@ class GroupingController extends Controller {
     }
 
     public function actionLoad($id) {
+        $this->layout = "grouping";
         if (Yii::app()->request->isAjaxRequest) {
             //    $this->render('_base_clustering', array());
         } else {

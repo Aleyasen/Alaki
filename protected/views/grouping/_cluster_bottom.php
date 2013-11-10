@@ -1,4 +1,4 @@
-<div class='groups'>
+<div class='groups' data-cid="<?php echo $cluster->id; ?>">
     <div><?php echo $cluster->name; ?></div>
     <?php
     $max_count = 9;

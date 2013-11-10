@@ -1,3 +1,7 @@
+<?php
+if(sizeof($cluster->corFriends)):
+?>
+<ul>
 <li class='cluster' data-type="cluster" data-cid="<?php echo $cluster->id; ?>">
     <div class="list">
         <?php
@@ -15,3 +19,7 @@
     </div>
     <div class="iclear" style="height:5px"></div>
 </li>
+<div class="iclear" style="height:10px"></div>
+            </ul>
+<?php endif;
+?>
