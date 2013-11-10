@@ -1,7 +1,5 @@
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;font-family:arial}ul,ol{list-style:none;}img{border:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}.nofloat{float:none;}.maincenter{width:984px;margin:0 auto;}.clear{clear:both;}.iclear{clear:both;display:block;overflow:hidden;padding:0;margin:0;width:0;height:0;}
-body{
-position: absolute;
-}
+/*
 .fg-widget {
     overflow-x: scroll;
     white-space: nowrap;
@@ -62,4 +60,59 @@ position: absolute;
     padding:2px; 
     margin-right:8px; 
     border:1px solid #ccc;
+}*/
+body{
+position: relative;
+}
+.main{
+width:100%;
+}
+.cluster-zone ul{
+width:300px;
+float:left;
+margin-right:20px;
+}
+.cluster{
+border:1px solid #ddd;
+z-index:100px;
+}
+.cluster .friend_div{
+width:54px;
+background:#eee;
+font-size:12px;
+margin:5px 0 0 5px;
+float:left;
+z-index:99999px;
+}
+.cluster .friend_div img{
+margin:2px;
+}
+.cluster .friend_div .name{
+height:18px;
+line-height:18px;
+overflow:hidden;
+margin-left:3px;
+}
+.group-zone {
+height:220px;
+overflow-x:scroll;
+overflow-y:hidden;
+background:#f7f7f7;
+}
+.group-zone  ul{
+width:auto;
+overflow:visible;
+}
+.group{
+background:#fff;
+width:200px;
+height:120px;
+float:left;
+margin:20px 0 0 20px;
+}
+.ui-draggable-dragging{
+z-index:999999999px;
+}
+.drop-hover{
+background:yellow;
 }

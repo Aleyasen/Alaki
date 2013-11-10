@@ -1,4 +1,4 @@
-<div class='groups' style="background-color: yellow;">
+<li class='cluster'>
     <?php
     $max_count = 7;
     foreach ($friends as $fri) {
@@ -8,7 +8,8 @@
         ?>
         <div class='friend_div'  fbid=<?php echo $fri->fbid; ?>>
             <img src='https://graph.facebook.com/<?php echo $fri->fbid; ?>/picture'>
-            <div><?php echo $fri->name; ?></div>
+            <div class="name"><?php echo $fri->name; ?></div>
         </div>
-<?php } ?>
-</div>
+	<?php } ?>
+	<div class="iclear" style="height:5px"></div>
+</li>
