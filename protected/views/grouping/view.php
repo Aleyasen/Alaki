@@ -63,9 +63,7 @@
 	<div class="group-zone">
 		<ul>
 			<?php for ($i = 0; $i < 5; $i++) { ?>
-				<li class="group">
-					
-				</li>
+				<li class="group">111</li>
 			<?php } ?>
 		</ul>
 	</div>
@@ -77,7 +75,7 @@
     $(".group").droppable({
 		hoverClass: "drop-hover",
         drop: function() {
-            alert("dropped");
+            alert($(this).html());
         }
     });
 	

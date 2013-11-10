@@ -61,11 +61,11 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
     margin-right:8px; 
     border:1px solid #ccc;
 }*/
-body{
-position: relative;
-}
+
 .main{
 width:100%;
+overflow:hidden;
+position: relative;
 }
 .cluster-zone ul{
 width:300px;
@@ -74,7 +74,6 @@ margin-right:20px;
 }
 .cluster{
 border:1px solid #ddd;
-z-index:100px;
 }
 .cluster .friend_div{
 width:54px;
@@ -82,7 +81,6 @@ background:#eee;
 font-size:12px;
 margin:5px 0 0 5px;
 float:left;
-z-index:99999px;
 }
 .cluster .friend_div img{
 margin:2px;
@@ -111,8 +109,10 @@ float:left;
 margin:20px 0 0 20px;
 }
 .ui-draggable-dragging{
-z-index:999999999px;
+z-index:999999999;
+position:absolute
 }
 .drop-hover{
 background:yellow;
+z-index:0;
 }
