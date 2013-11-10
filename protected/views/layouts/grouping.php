@@ -31,6 +31,7 @@
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/font-awesome/css/font-awesome.min.css');
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/css/grouping.css');
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/grouping_interface.js');
+        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/jquery.jrumble.1.3.js');
         ?>
 
 
