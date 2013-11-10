@@ -43,8 +43,8 @@
 
 
 
-<div class="main">
-    <div class="cluster-zone" id="cluster-zone">
+<div class="container-fluid">
+    <div class="cluster-zone row" id="cluster-zone">
         <?php
         //$count = 3;
         foreach ($user->clusterings[0]->clusters as $clus) {
@@ -87,110 +87,8 @@
     </div>
 </div>
 
-
 <script type="text/javascript">
-
-
-
-
-    function addDragDrop() {
-        colors = ["#E7987E",
-            "#72DB44",
-            "#E37FE7",
-            "#78D7C5",
-            "#EAA134",
-            "#65DA8A",
-            "#CBC2C1",
-            "#B9A5E3",
-            "#CAD73D",
-            "#E893B4",
-            "#9BB485",
-            "#82BFE0",
-            "#AFD26F",
-            "#D3B55E",
-            "#DAE0AB"];
-        alert(colors);
-        $('#bottom-list li').each(function(index) {
-            $(this).css('background-color', colors[index]);
-        });
-
-
-        $(".cluster").draggable({
-            revert: true
-        });
-        $(".group").droppable({
-            hoverClass: "drop-hover",
-            accept: ".cluster,.friend_div",
-            drop: function(event, ui) {
-                if (ui.draggable.attr('data-type') == "user") {
-                    //$(this).find("#og").append(ui.draggable.html());
-                    ui.draggable.detach().appendTo($(this).find("#og .list"));
-                    $cid = $(this).attr('data-cid');
-                    $this = $(this);
-                    $.ajax({
-                        url: "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>",
-                        data: {friendId: ui.draggable.attr('data-id'), sourceId: ui.draggable.attr('data-cid'), destId: $cid},
-                        success: function(msg) {
-                            $this.html(msg);
-                        },
-                        error: function(xhr) {
-                            alert("failure" + xhr.readyState + this.url)
-                        }
-                    });
-                }
-                else {
-                    ui.draggable.detach().appendTo($(this));
-                    $cid = $(this).attr('data-cid');
-                    $this = $(this);
-                    $.ajax({
-                        url: "<?php echo Yii::app()->createUrl('grouping/moveCluster'); ?>",
-                        data: {clusId: ui.draggable.attr('data-cid'), destId: $cid},
-                        success: function(msg) {
-                            $this.html(msg);
-                        },
-                        error: function(xhr) {
-                            alert("failure" + xhr.readyState + this.url)
-                        }
-                    });
-                }
-            }
-        });
-
-
-        $(".friend_div").draggable({
-            revert: true
-        });
-        $(".cluster").droppable({
-            hoverClass: "drop-hover",
-            accept: ".friend_div",
-            drop: function(event, ui) {
-                ui.draggable.detach().appendTo($(this).find(".list"));
-            }
-        });
-
-        $(".groups").click(function(event) {
-            $cid = $(event.target).attr('data-cid');
-            if ($cid == null) {
-                $cid = $(event.target).parent().attr('data-cid');
-            }
-            $.ajax({
-                url: "<?php echo Yii::app()->createUrl('grouping/showCluster'); ?>",
-                data: {clusId: $cid},
-                success: function(msg) {
-                    $('#cluster-zone').html(msg);
-                },
-                error: function(xhr) {
-                    alert("failure" + xhr.readyState + this.url)
-                }
-            });
-        });
-    }
-    $(document).ready(function() {
-        addDragDrop();
-        console.log("Document loaded");
-    });
-    $(document).ajaxComplete(function() {
-        addDragDrop();
-    });
-
-</script>
+  $url_moveFriend = "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>";
+  $url_moveCluster = "<?php echo Yii::app()->createUrl('grouping/moveCluster'); ?>";
+  $url_showCluster = "<?php echo Yii::app()->createUrl('grouping/showCluster'); ?>";
+</script>>

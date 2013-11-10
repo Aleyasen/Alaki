@@ -61,7 +61,7 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
     float:left;
     margin-right:20px;
 }
-.cluster, #og{
+.cluster{
     border:1px solid #ddd;
 }
 .cluster .friend_div,
@@ -75,15 +75,16 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 
 .groups .friend_div{
     width: 54px;
-    background: #eee;
     font-size: 12px;
     margin: 5px 0 0 5px;
     float: left;
+    border-radius: 5px;
 }
 
 .groups{
     overflow: hidden;
     height: 200px;
+    padding: 10px;
 }
 
 .groups .name {
@@ -100,7 +101,7 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 }
 .finalGroup{
     height: 200px;
-    border: solid 1px black;
+    border-radius: 10px;
 }
 
 #og .friend_div img,
@@ -139,4 +140,12 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 .drop-hover{
     background:yellow;
     z-index:0;
+}
+img{
+    border-radius: 10px;
+}
+
+.group div:first-child{
+    font-size: 14px;
+    font-weight: bolder;
 }
