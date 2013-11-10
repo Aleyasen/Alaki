@@ -72,7 +72,7 @@
                     $this->renderPartial('_cluster_bottom', array(
                         'cluster' => $clus));
                     ?>
-
+					<div id="og" data-cid="og"></div>
                 </li>
             <?php } ?>
         </ul>
@@ -81,20 +81,34 @@
 
 
 <script type="text/javascript">
-    $(".cluster").draggable();
+    $(".cluster").draggable({
+		revert: true
+	});
     $(".group").droppable({
-        hoverClass: "drop-hover",
-        drop: function() {
-            alert($(this).html());
+		hoverClass: "drop-hover",
+        accept: ".cluster,.friend_div",
+        drop: function(event, ui) {
+			if(ui.draggable.attr('data-type') == "user"){
+				//$(this).find("#og").append(ui.draggable.html());
+				ui.draggable.detach().appendTo($(this).find("#og"));
+			}
+			else{
+				ui.draggable.detach().appendTo($(this));
+			}
         }
     });
+	
 
-    $(".friend_div").draggable();
+    $(".friend_div").draggable({
+		revert: true
+	});
     $(".cluster").droppable({
-        hoverClass: "drop-hover",
-        drop: function() {
-            alert("dropped");
+		hoverClass: "drop-hover",
+        accept: ".friend_div",
+        drop: function(event, ui) {
+          ui.draggable.detach().appendTo($(this).find(".list"));
         }
     });
+</script>
 
 </script>
