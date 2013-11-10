@@ -1,3 +1,5 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;font-family:arial}ul,ol{list-style:none;}img{border:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}.nofloat{float:none;}.maincenter{width:984px;margin:0 auto;}.clear{clear:both;}.iclear{clear:both;display:block;overflow:hidden;padding:0;margin:0;width:0;height:0;}
+
 .fg-widget {
     overflow-x: scroll;
     white-space: nowrap;
@@ -7,11 +9,51 @@
     float: none;
 }
 .finalGroup{
-	height: 200px;
-	border: solid 1px black;
+    height: 200px;
+    border: solid 1px black;
 }
 
 .cluster-container{
-	width: 1200px;
-	height: 400px;
+    width: 1200px;
+    height: 400px;
+}
+.container-fluid{
+    overflow:visible;
+}
+.subcluster{
+    border:1px solid #ddd;
+    width:126px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+.subcluster img{
+    width:48px;
+    height:48px;
+    margin:10px 0 0 10px;
+    float:left;
+}
+
+
+.friend_div{ 
+    color: #3B5998; 
+    text-decoration: none; 
+    background-color: white;
+    cursor: pointer;
+    width:100px;
+    position: relative;
+    float: left;
+    border:1px dotted #ccc; 
+    border-radius:5px; 
+    text-align: left; 
+    padding:2px; 
+    margin-top: 2px;
+    margin-left: 2px;
+    z-index:999; 
+    font-weight:bold; 
+    font-size:10.5px;
+}
+.friend_div img{ 
+    padding:2px; 
+    margin-right:8px; 
+    border:1px solid #ccc;
 }

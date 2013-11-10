@@ -33,7 +33,7 @@ class ClusteringAlgorithm {
         $this->user = $user;
         $this->dir = $this->proj_path . 'algorithms/data/' . $this->user->id . '-' . $this->user->fbid . '/Algorithms';
 
-        $this->cygwin_cmd = 'C:\cygwin\bin\bash.exe --login -c ' ;
+        $this->cygwin_cmd = 'C:\cygwin\bin\bash.exe --login -c ';
         if (!is_dir($this->dir)) {
             mkdir($this->dir, 0777, true);
         }
@@ -131,7 +131,7 @@ class ClusteringAlgorithm {
             }
         }
         $handle_map = fopen($this->getMapFileLocation(), 'w') or die('Cannot open file:  ' . $this->getMapFileLocation());
-       //echo 'Friends Size: ' . sizeof($this->rev_arr) . '<br>';
+        //echo 'Friends Size: ' . sizeof($this->rev_arr) . '<br>';
         for ($i = 0; $i < sizeof($this->rev_arr); $i++)
             fwrite($handle_map, $i . "\t" . $this->rev_arr[$i] . PHP_EOL);
         fclose($handle_map);
