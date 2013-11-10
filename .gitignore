@@ -223,3 +223,4 @@ assets/*
 algorithms/data/*
 *.sublime-project
 *.sublime-workspace
+algorithms/fbinfo/*
