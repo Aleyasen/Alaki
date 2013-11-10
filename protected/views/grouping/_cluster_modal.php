@@ -4,13 +4,14 @@ foreach ($cluster->clusters as $subclus) {
     ?>
 
     <?php
-//                if ($count == 0) {
-//                    break;
-//                }
-//                $count--;
     $this->renderPartial('_cluster_main', array(
         'cluster' => $subclus));
     ?>
 
 <?php } ?>
+
+<?php
+    $this->renderPartial('_cluster_main', array(
+        'cluster' => $cluster));
+    ?>
 <div class="iclear" ></div>
