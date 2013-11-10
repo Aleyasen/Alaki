@@ -27,6 +27,7 @@ class GroupingController extends Controller {
         $friendclus = FriendCluster::model()->find("friend=:friend and cor_cluster=:cor_cluster", array(":friend" => $friObj->id, ":cor_cluster" => $sourceObj->id));
         $fri->removeRelationRecords('corClusters', array($sourceObj->id));
         $fri->addRelationRecords('corClusters', array($destObj->id), array('cluster' => $friendclus->cluster));
+        return "OK";
     }
 
     public function actionIntro() {
