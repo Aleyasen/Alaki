@@ -72,19 +72,22 @@ width:300px;
 float:left;
 margin-right:20px;
 }
-.cluster{
+.cluster, #og{
 border:1px solid #ddd;
 }
-.cluster .friend_div{
+.cluster .friend_div,
+#og .friend_div{
 width:54px;
 background:#eee;
 font-size:12px;
 margin:5px 0 0 5px;
 float:left;
 }
+#og .friend_div img,
 .cluster .friend_div img{
 margin:2px;
 }
+#og .friend_div .name,
 .cluster .friend_div .name{
 height:18px;
 line-height:18px;

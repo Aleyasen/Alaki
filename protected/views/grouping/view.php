@@ -72,7 +72,10 @@
                     $this->renderPartial('_cluster_bottom', array(
                         'cluster' => $clus));
                     ?>
-					<div id="og" data-cid="og"></div>
+					<div id="og" data-cid="og">
+						<div class="list"></div>
+						<div class="iclear" style="height:5px"></div>
+					</div>
                 </li>
             <?php } ?>
         </ul>
@@ -90,7 +93,7 @@
         drop: function(event, ui) {
 			if(ui.draggable.attr('data-type') == "user"){
 				//$(this).find("#og").append(ui.draggable.html());
-				ui.draggable.detach().appendTo($(this).find("#og"));
+				ui.draggable.detach().appendTo($(this).find("#og .list"));
 			}
 			else{
 				ui.draggable.detach().appendTo($(this));
