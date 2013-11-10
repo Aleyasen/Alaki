@@ -31,10 +31,17 @@
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
 <script>
-    $(document).ready(function() {      
+    $(document).ready(function() {
         $('.carousel').carousel('pause');
     });
 </script>
+
+<?php
+foreach ($user->clusterings[0]->clusters as $clus) {
+    $this->renderPartial('_friends', array(
+        'friends' => $clus->corFriends));
+}
+?>
 <div id="row">
 	<ul class="thumbnails fg-widget">
 	  <?php for($i = 0; $i < 5; $i++){?>

@@ -140,6 +140,18 @@ class GroupingController extends Controller {
         return $list;
     }
 
+    public function actionLoad($id) {
+        if (Yii::app()->request->isAjaxRequest) {
+            //    $this->render('_base_clustering', array());
+        } else {
+            $user = User::model()->findByPK($id);
+            $this->setVar('user', $user);
+            $this->render('view', array(
+                'user' => $user
+            ));
+        }
+    }
+
     public function isValidUser() {
         if (!isset(Yii::app()->session['user']) || empty(Yii::app()->session['user'])) {
             // if (isset($_SESSION['user'])) {
@@ -147,5 +159,7 @@ class GroupingController extends Controller {
         }
         return true;
     }
+    
+    
 
 }

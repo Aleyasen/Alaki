@@ -3,10 +3,10 @@ body { font-family:'lucida grande',arial,tahoma,verdana,arial,sans-serif; font-s
 #public { float:right; max-height:500px; overflow-y:auto; display: inline; }
 .members{ color: #3B5998; text-decoration: none; background-color: white;
           cursor: pointer;width:170px;
-          position: relative; float: left; border:1px dotted #ccc; 
+          position: relative; border:1px dotted #ccc; 
           border-radius:5px; text-align: left; padding:2px; margin-top: 2px;
           margin-left: 2px;z-index:999; font-weight:bold; font-size:10.5px;}
-.members img{ padding:2px; margin-right:8px; border:1px solid #ccc; float:left;}
+.members img{ padding:2px; margin-right:8px; border:1px solid #ccc;}
 #groupsall{ float:left; clear:left; display: inline; max-height:500px; overflow: auto; width:180px; }
 .group{ float:left; position:relative; width:117px; border:1px solid #817f83; margin:15px; margin-top:4px; text-align: left; min-height:137px; height:auto; background-color: white; }
 .supgroup{float:left; position:relative; width:150px; border:1px solid #aca9af; margin:3px; text-align: left; height:auto; background-color: #dcbdf9;}
