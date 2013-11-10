@@ -14,7 +14,6 @@
 
         <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />-->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
 
 
         <?php
@@ -38,14 +37,6 @@
 
 
         <div class="container-fluid" id="page">
-
-
-            <div>
-                <div><?php //echo CHtml::encode(Yii::app()->name);          ?>
-                    <img src='<?php echo Yii::app()->request->baseUrl; ?>/images/banner.png'></img>
-                </div>
-            </div><!-- header -->
-
             <div class="row buttons" style="float: right; margin:2px;">
                 <?php
                 $scope = '';

@@ -35,13 +35,14 @@ class GroupingController extends Controller {
     }
 
     public function actionView() {
+        $this->layout = "grouping";
         //   if (Yii::app()->facebook->isUserLogin()) {
         if ($this->isValidUser()) {
             if (Yii::app()->request->isAjaxRequest) {
                 // TODO    $this->render('_base_clustering', array());
             } else {
                 if (count($this->getVar('user')->clusterings) < 1) {
-                    $this->clusteringAlgorithm();
+                    //$this->clusteringAlgorithm();
                 }
                 //return; // Just for Test
                 $user = User::model()->findByPK($this->getVar('user')->id);
