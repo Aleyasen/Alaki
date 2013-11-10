@@ -14,8 +14,7 @@
 
         <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />-->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-        <script type="text/javascript" src="https://github.com/gka/chroma.js"></script>
-        <script type="text/javascript" src="http://tools.medialab.sciences-po.fr/iwanthue/js/libs/chroma.palette-gen.js"></script>
+ 
         
 
         <?php

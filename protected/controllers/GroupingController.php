@@ -24,19 +24,28 @@ class GroupingController extends Controller {
     }
 
     public function split($clustering) {
-        $s = 25;
+        $min = 12;
+        $max = 20;
+
         foreach ($clustering->clusters as $clus) {
-            $group_num = sizeof($clus->friends) / $s;
-
-            if ($group_num > 0) {
-
-                for ($i = 0; $i < $group_num; $i++) {
-                    $new_cluster = new Cluster;
-                    $cluster_object->name = self::$default_clus_name . ($clus_ind_name);
-                    $cluster_object->level = 0;
-                    $clus_ind_name++;
-                    $cluster_object->clustering = $clustering->id;
-                    $cluster_object->save();
+            if (sizeof($clus->friends) > $max) {
+                $max_reach = rand($min, $max);
+                $max_actual = $max_reach;
+                foreach ($clus->friends as $fri) {
+                    if ($max_reach == $max_actual) {
+                        $new_cluster = new Cluster;
+                        $new_cluster->name = "alaki";
+                        $new_cluster->level = 0;
+                        $new_cluster->sup_cluster = $clus->sup_cluster;
+                        $new_cluster->clustering = $clustering->id;
+                        $new_cluster->save();
+                    }
+                    $this->moveFriend_louvain($fri->id, $clus->id, $new_cluster->id);
+                    $max_reach--;
+                    if ($max_reach == 0) {
+                        $max_reach = rand($min, $max);
+                        $max_actual = $max_reach;
+                    }
                 }
             }
         }
@@ -101,11 +110,12 @@ class GroupingController extends Controller {
             } else {
                 if (count($this->getVar('user')->clusterings) < 1) {
                     $this->clusteringAlgorithm();
+                    $user = User::model()->findByPK($this->getVar('user')->id);
+                    $clustering = $user->clusterings[0];
+                    $this->split($clustering);
                 }
                 //return; // Just for Test
                 $user = User::model()->findByPK($this->getVar('user')->id);
-                $clustering = $user->clusterings[0];
-                $this->split($clustering);
                 $this->setVar('user', $user);
 
                 $this->render('view', array(
