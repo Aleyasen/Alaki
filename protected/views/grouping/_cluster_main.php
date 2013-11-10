@@ -1,7 +1,7 @@
 <div class='groups' style="background-color: yellow;">
     <?php
     $max_count = 7;
-    foreach ($friends as $fri) {
+    foreach ($cluster->corFriends as $fri) {
         if ($max_count == 0)
             break;
         $max_count--;
@@ -10,5 +10,5 @@
             <img src='https://graph.facebook.com/<?php echo $fri->fbid; ?>/picture'>
             <div><?php echo $fri->name; ?></div>
         </div>
-<?php } ?>
+    <?php } ?>
 </div>

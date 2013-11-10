@@ -13,8 +13,20 @@ class GroupingController extends Controller {
         $this->setVar('edges', NULL);
     }
 
-    public function actionMoveFriend($frindId, $clus1, $clus2) {
-        
+    public function actionMoveCluster($clusId, $sourceId, $destId) {
+
+        $clusObj = Cluster::model()->findbyPK($clusId);
+        $clusObj->sup_cluster = $destId;
+        $clusObj->save();
+    }
+
+    public function actionMoveFriend($friendId, $sourceId, $destId) {
+        $friObj = Friend::model()->findByPK($friendId);
+        $sourceObj = Cluster::model()->findbyPK($sourceId);
+        $destObj = Cluster::model()->findbyPK($destId);
+        $friendclus = FriendCluster::model()->find("friend=:friend and cor_cluster=:cor_cluster", array(":friend" => $friObj->id, ":cor_cluster" => $sourceObj->id));
+        $fri->removeRelationRecords('corClusters', array($sourceObj->id));
+        $fri->addRelationRecords('corClusters', array($destObj->id), array('cluster' => $friendclus->cluster));
     }
 
     public function actionIntro() {

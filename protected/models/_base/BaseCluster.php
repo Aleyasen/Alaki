@@ -38,6 +38,8 @@
  * @property Cgroup[] $cgroups
  * @property Cgroup[] $cgroups1
  * @property Cgroup[] $cgroups2
+ * @property Cluster $supCluster
+ * @property Cluster[] $clusters
  * @property Clustering $clustering0
  * @property FriendCluster[] $friendClusters
  * @property FriendCluster[] $friendClusters1
@@ -76,6 +78,8 @@ abstract class BaseCluster extends GxActiveRecord {
 			'cgroups' => array(self::HAS_MANY, 'Cgroup', 'clus_mcl'),
 			'cgroups1' => array(self::HAS_MANY, 'Cgroup', 'clus_louvain'),
 			'cgroups2' => array(self::HAS_MANY, 'Cgroup', 'clus_oslom'),
+			'supCluster' => array(self::BELONGS_TO, 'Cluster', 'sup_cluster'),
+			'clusters' => array(self::HAS_MANY, 'Cluster', 'sup_cluster'),
 			'clustering0' => array(self::BELONGS_TO, 'Clustering', 'clustering'),
 			'friendClusters' => array(self::HAS_MANY, 'FriendCluster', 'cluster'),
 			'friendClusters1' => array(self::HAS_MANY, 'FriendCluster', 'cor_cluster'),
@@ -93,7 +97,7 @@ abstract class BaseCluster extends GxActiveRecord {
 			'name' => Yii::t('app', 'Name'),
 			'clustering' => null,
 			'deleted' => Yii::t('app', 'Deleted'),
-			'sup_cluster' => Yii::t('app', 'Sup Cluster'),
+			'sup_cluster' => null,
 			'level' => Yii::t('app', 'Level'),
 			'friendsCount' => Yii::t('app', 'Friends Count'),
 			'corFriendsCount' => Yii::t('app', 'Cor Friends Count'),
@@ -117,6 +121,8 @@ abstract class BaseCluster extends GxActiveRecord {
 			'cgroups' => null,
 			'cgroups1' => null,
 			'cgroups2' => null,
+			'supCluster' => null,
+			'clusters' => null,
 			'clustering0' => null,
 			'friendClusters' => null,
 			'friendClusters1' => null,
@@ -130,7 +136,7 @@ abstract class BaseCluster extends GxActiveRecord {
 		$criteria->compare('name', $this->name, true);
 		$criteria->compare('clustering', $this->clustering);
 		$criteria->compare('deleted', $this->deleted);
-		$criteria->compare('sup_cluster', $this->sup_cluster, true);
+		$criteria->compare('sup_cluster', $this->sup_cluster);
 		$criteria->compare('level', $this->level);
 		$criteria->compare('friendsCount', $this->friendsCount);
 		$criteria->compare('corFriendsCount', $this->corFriendsCount);
