@@ -14,6 +14,8 @@
 
         <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />-->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/chroma.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/chroma.palette-gen.js"></script>
 
 
         <?php
@@ -67,27 +69,27 @@
 
             <div id="mainmenu" class="navbar">
                 <div class="navbar-inner">
-                <?php
-                $this->widget('zii.widgets.CMenu', array(
-                    'items' => array(
-                        array('label' => 'Home', 'url' => array('/frontend/intro')),
-                        array('label' => 'Terms & Conditions', 'url' => array('/frontend/terms')),
-                        array('label' => 'Guidelines', 'url' => array('/frontend/guides')),
-                        // array('label' => 'About', 'url' => array('/frontend/intro')),
-                        array('label' => 'Contact', 'url' => array('/site/contact')),
-                    //    array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-                    //    array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
-                    ),
-                    'htmlOptions' => array(
-                        'class' => 'nav',
+                    <?php
+                    $this->widget('zii.widgets.CMenu', array(
+                        'items' => array(
+                            array('label' => 'Home', 'url' => array('/frontend/intro')),
+                            array('label' => 'Terms & Conditions', 'url' => array('/frontend/terms')),
+                            array('label' => 'Guidelines', 'url' => array('/frontend/guides')),
+                            // array('label' => 'About', 'url' => array('/frontend/intro')),
+                            array('label' => 'Contact', 'url' => array('/site/contact')),
+                        //    array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
+                        //    array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
                         ),
-                    'activeCssClass' => 'active',
-                ));
-                ?>
+                        'htmlOptions' => array(
+                            'class' => 'nav',
+                        ),
+                        'activeCssClass' => 'active',
+                    ));
+                    ?>
                 </div>
             </div><!-- mainmenu -->
             <div class="container-fluid">
-            <?php echo $content; ?>
+                <?php echo $content; ?>
             </div>
             <div class="clear"></div>
 

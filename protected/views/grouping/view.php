@@ -64,12 +64,12 @@
     </div>
     <div class="iclear"></div>
     <div class="group-zone row">
-        <ul class="thumbnails fg-widget">
+        <ul id="bottom-list" class="thumbnails fg-widget">
             <?php
             foreach ($user->clusterings[0]->clusters as $clus) {
                 if ($clus->level == 1) {
                     ?>
-                    <li class="span4 group finalGroup" data-cid=<?php echo $clus->id; ?>>
+                    <li class="span4 group finalGroup" style="background-color: blue;" data-cid=<?php echo $clus->id; ?>>
                         <?php
                         $this->renderPartial('_cluster_bottom', array(
                             'cluster' => $clus));
@@ -89,7 +89,32 @@
 
 
 <script type="text/javascript">
+
+
+
+
     function addDragDrop() {
+        colors = ["#E7987E",
+            "#72DB44",
+            "#E37FE7",
+            "#78D7C5",
+            "#EAA134",
+            "#65DA8A",
+            "#CBC2C1",
+            "#B9A5E3",
+            "#CAD73D",
+            "#E893B4",
+            "#9BB485",
+            "#82BFE0",
+            "#AFD26F",
+            "#D3B55E",
+            "#DAE0AB"];
+        alert(colors);
+        $('#bottom-list li').each(function(index) {
+            $(this).css('background-color', colors[index]);
+        });
+
+
         $(".cluster").draggable({
             revert: true
         });
@@ -160,11 +185,11 @@
             });
         });
     }
-    $(document).ready(function(){
+    $(document).ready(function() {
         addDragDrop();
         console.log("Document loaded");
     });
-    $(document).ajaxComplete(function(){
+    $(document).ajaxComplete(function() {
         addDragDrop();
     });
 

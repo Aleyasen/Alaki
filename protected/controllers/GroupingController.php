@@ -23,6 +23,34 @@ class GroupingController extends Controller {
         }
     }
 
+    public function split($clustering) {
+        $s = 25;
+        foreach ($clustering->clusters as $clus) {
+            $group_num = sizeof($clus->friends) / $s;
+
+            if ($group_num > 0) {
+
+                for ($i = 0; $i < $group_num; $i++) {
+                    $new_cluster = new Cluster;
+                    $cluster_object->name = self::$default_clus_name . ($clus_ind_name);
+                    $cluster_object->level = 0;
+                    $clus_ind_name++;
+                    $cluster_object->clustering = $clustering->id;
+                    $cluster_object->save();
+                }
+            }
+        }
+    }
+
+    public function moveFriend_louvain($friendId, $sourceId, $destId) {
+        $friObj = Friend::model()->findByPK($friendId);
+        $sourceObj = Cluster::model()->findbyPK($sourceId);
+        $destObj = Cluster::model()->findbyPK($destId);
+        $friendclus = FriendCluster::model()->find("friend=:friend and cor_cluster=:cor_cluster", array(":friend" => $friObj->id, ":cor_cluster" => $sourceObj->id));
+        $friObj->removeRelationRecords('corClusters', array($sourceObj->id));
+        $friObj->addRelationRecords('corClusters', array($destObj->id), array('cluster' => $friendclus->cluster));
+    }
+
     public function actionMoveFriend($friendId, $sourceId, $destId) {
         if (Yii::app()->request->isAjaxRequest) {
             //echo "$friendId $sourceId $destId";
@@ -76,6 +104,8 @@ class GroupingController extends Controller {
                 }
                 //return; // Just for Test
                 $user = User::model()->findByPK($this->getVar('user')->id);
+                $clustering = $user->clusterings[0];
+                $this->split($clustering);
                 $this->setVar('user', $user);
 
                 $this->render('view', array(

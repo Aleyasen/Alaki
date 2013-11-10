@@ -14,7 +14,9 @@
 
         <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />-->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
+        <script type="text/javascript" src="https://github.com/gka/chroma.js"></script>
+        <script type="text/javascript" src="http://tools.medialab.sciences-po.fr/iwanthue/js/libs/chroma.palette-gen.js"></script>
+        
 
         <?php
         Yii::app()->clientScript->registerScriptFile('https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.js');
@@ -26,6 +28,8 @@
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/bs-editable/js/bootstrap-editable.min.js');
         Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/jquery.slimscroll.min.js');
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/js/font-awesome/css/font-awesome.min.css');
+        
+        
         Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl . '/css/grouping.css');
         ?>
 
