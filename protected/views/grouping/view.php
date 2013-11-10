@@ -72,7 +72,10 @@
                     $this->renderPartial('_cluster_bottom', array(
                         'cluster' => $clus));
                     ?>
-                    <div id="og" data-cid="og"></div>
+					<div id="og" data-cid="og">
+						<div class="list"></div>
+						<div class="iclear" style="height:5px"></div>
+					</div>
                 </li>
             <?php } ?>
         </ul>
@@ -88,23 +91,13 @@
         hoverClass: "drop-hover",
         accept: ".cluster,.friend_div",
         drop: function(event, ui) {
-            if (ui.draggable.attr('data-type') == "user") {
-                //$(this).find("#og").append(ui.draggable.html());
-                ui.draggable.detach().appendTo($(this).find("#og"));
-                $.ajax({
-                    url: "<?php echo Yii::app()->createUrl('grouping/moveFriend'); ?>",
-                    data: {friendId: ui.draggable.attr('data-id'), sourceId:ui.draggable.parent().parent().attr('data-cid'), destId: 2},
-                    success: function(msg) {
-                        alert("Sucess")
-                    },
-                    error: function(xhr) {
-                        alert("failure" + xhr.readyState + this.url)
-                    }
-                });
-            }
-            else {
-                ui.draggable.detach().appendTo($(this));
-            }
+			if(ui.draggable.attr('data-type') == "user"){
+				//$(this).find("#og").append(ui.draggable.html());
+				ui.draggable.detach().appendTo($(this).find("#og .list"));
+			}
+			else{
+				ui.draggable.detach().appendTo($(this));
+			}
         }
     });
 
