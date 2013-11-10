@@ -33,7 +33,11 @@
  * @property double $expansionB
  * @property double $cutRationB
  * @property double $conductanceB
+ * @property string $final_group
  *
+ * @property Cgroup[] $cgroups
+ * @property Cgroup[] $cgroups1
+ * @property Cgroup[] $cgroups2
  * @property Clustering $clustering0
  * @property FriendCluster[] $friendClusters
  * @property FriendCluster[] $friendClusters1
@@ -61,14 +65,17 @@ abstract class BaseCluster extends GxActiveRecord {
 			array('deleted, level, friendsCount, corFriendsCount, innerEdges, outerEdges, innerEdgesB, outerEdgesB', 'numerical', 'integerOnly'=>true),
 			array('internalDensity, averageDegree, TPR, expansion, cutRation, conductance, internalDensityB, averageDegreeB, TPRB, expansionB, cutRationB, conductanceB', 'numerical'),
 			array('name', 'length', 'max'=>256),
-			array('clustering, sup_cluster', 'length', 'max'=>20),
-			array('name, clustering, deleted, sup_cluster, level, friendsCount, corFriendsCount, innerEdges, outerEdges, internalDensity, averageDegree, TPR, expansion, cutRation, conductance, innerEdgesB, outerEdgesB, internalDensityB, averageDegreeB, TPRB, expansionB, cutRationB, conductanceB', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('id, name, clustering, deleted, sup_cluster, level, friendsCount, corFriendsCount, innerEdges, outerEdges, internalDensity, averageDegree, TPR, expansion, cutRation, conductance, innerEdgesB, outerEdgesB, internalDensityB, averageDegreeB, TPRB, expansionB, cutRationB, conductanceB', 'safe', 'on'=>'search'),
+			array('clustering, sup_cluster, final_group', 'length', 'max'=>20),
+			array('name, clustering, deleted, sup_cluster, level, friendsCount, corFriendsCount, innerEdges, outerEdges, internalDensity, averageDegree, TPR, expansion, cutRation, conductance, innerEdgesB, outerEdgesB, internalDensityB, averageDegreeB, TPRB, expansionB, cutRationB, conductanceB, final_group', 'default', 'setOnEmpty' => true, 'value' => null),
+			array('id, name, clustering, deleted, sup_cluster, level, friendsCount, corFriendsCount, innerEdges, outerEdges, internalDensity, averageDegree, TPR, expansion, cutRation, conductance, innerEdgesB, outerEdgesB, internalDensityB, averageDegreeB, TPRB, expansionB, cutRationB, conductanceB, final_group', 'safe', 'on'=>'search'),
 		);
 	}
 
 	public function relations() {
 		return array(
+			'cgroups' => array(self::HAS_MANY, 'Cgroup', 'clus_mcl'),
+			'cgroups1' => array(self::HAS_MANY, 'Cgroup', 'clus_louvain'),
+			'cgroups2' => array(self::HAS_MANY, 'Cgroup', 'clus_oslom'),
 			'clustering0' => array(self::BELONGS_TO, 'Clustering', 'clustering'),
 			'friendClusters' => array(self::HAS_MANY, 'FriendCluster', 'cluster'),
 			'friendClusters1' => array(self::HAS_MANY, 'FriendCluster', 'cor_cluster'),
@@ -106,6 +113,10 @@ abstract class BaseCluster extends GxActiveRecord {
 			'expansionB' => Yii::t('app', 'Expansion B'),
 			'cutRationB' => Yii::t('app', 'Cut Ration B'),
 			'conductanceB' => Yii::t('app', 'Conductance B'),
+			'final_group' => Yii::t('app', 'Final Group'),
+			'cgroups' => null,
+			'cgroups1' => null,
+			'cgroups2' => null,
 			'clustering0' => null,
 			'friendClusters' => null,
 			'friendClusters1' => null,
@@ -139,6 +150,7 @@ abstract class BaseCluster extends GxActiveRecord {
 		$criteria->compare('expansionB', $this->expansionB);
 		$criteria->compare('cutRationB', $this->cutRationB);
 		$criteria->compare('conductanceB', $this->conductanceB);
+		$criteria->compare('final_group', $this->final_group, true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

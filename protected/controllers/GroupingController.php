@@ -13,6 +13,10 @@ class GroupingController extends Controller {
         $this->setVar('edges', NULL);
     }
 
+    public function actionMoveFriend($frindId, $clus1, $clus2) {
+        
+    }
+
     public function actionIntro() {
         $user = new User;
         $user->createdAt = new CDbExpression('NOW()');
@@ -42,7 +46,7 @@ class GroupingController extends Controller {
                 // TODO    $this->render('_base_clustering', array());
             } else {
                 if (count($this->getVar('user')->clusterings) < 1) {
-                    //$this->clusteringAlgorithm();
+                    $this->clusteringAlgorithm();
                 }
                 //return; // Just for Test
                 $user = User::model()->findByPK($this->getVar('user')->id);
@@ -159,7 +163,5 @@ class GroupingController extends Controller {
         }
         return true;
     }
-    
-    
 
 }
